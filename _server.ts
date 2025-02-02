@@ -42,6 +42,5 @@ server.bindAsync(
     console.log(
       "Hold tight, the server's running smoother than a race car on a straight track. 🏎️💨",
     )
-    server.start()
   },
 )
