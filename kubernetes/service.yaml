@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: grpc-service
+spec:
+  selector:
+    app: grpc-server
+  ports:
+    - name: grpc-port
+      port: 50051         # Port exposed to the gRPC client
+      targetPort: 50051   # Container port where gRPC is running
+  type: ClusterIP
