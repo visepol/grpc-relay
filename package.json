@@ -1,6 +1,7 @@
 {
   "name": "grpc-relay",
   "version": "1.0.0",
+  "description": "A demonstration application showcasing how gRPC works with Istio, featuring both server and client implementations.",
   "scripts": {
     "server": "tsx ./_server.ts",
     "client": "tsx ./_client.ts",
