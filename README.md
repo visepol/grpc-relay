@@ -34,9 +34,7 @@ Install dependencies:
 
 ```sh
 npm install
-
 # or
-
 yarn install
 ```
 
