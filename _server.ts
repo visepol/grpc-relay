@@ -39,8 +39,6 @@ server.bindAsync(
   '0.0.0.0:50051',
   grpc.ServerCredentials.createInsecure(),
   () => {
-    console.log(
-      "Hold tight, the server's running smoother than a race car on a straight track. 🏎️💨",
-    )
+    console.log("Server's up—smooth as a race car! 🏎️💨")
   },
 )
